@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Lexley</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <script src="../views/sidebar.js"></script>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <script src="../views/navbar.js"></script>
+                      
+            <div class="container">
+                    
+                <div class="card text-black shadow p-3 mb-5 rounded">
+                    <div class="card-body text-black">
+                          <h1 class="card-title">
+                              <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="50" height="50" class="rounded-circle shadow rounded"> Mi perfil
+                               <a href="#" class="btn btn-secondary" style="float: right;" role="button">Editar</a>
+                          </h1>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="name">Nombre Completo</label>
+                                    <input type="name" class="form-control" id="nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="usuario">Tipo de usuario</label>
+                                    <input type="text" class="form-control" id="usuario">
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="password">Contraseña</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="email">Correo</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="text-area">Teléfono</label>
+                                    <div class="col pl-0 pr-0">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="phone">
+                                            <div class="input-group-addon input-group-button">
+                                                <button type="button" class="btn add-btn"><i class="fa fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          </form>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-reg-modal">Guardar</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+                
+        </div>
+    </div>
+    <script src="../views/footer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Lexley</title>
+    
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <script src="../views/sidebar.js"></script>
+        <!-- Page Content  -->
+        <div id="content">
+            <script src="../views/navbar.js"></script>
+
+            <h1 class="text-center mb-4"><i class="fa fa-users fa-2x circle-icon text-white"></i> Usuarios</h1>
+            <div class="col text-center">
+                <button type="button" class="btn btn-primary btnind mt-4 mb-4" data-toggle="modal" data-target="#fullModal"><i class="fa fa-plus"></i> Nuevo Usuario</button>
+            </div>
+            <!--MODALS-->
+            <script src="../views/nusuario.js"></script>
+            
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-bordered mt-4 shadow p-3 mb-5 bg-white rounded">
+                      <thead class="thead-light">
+                        <tr>
+                          <th scope="col">Nombre</th>
+                          <th scope="col">Correo</th>
+                          <th scope="col">Tipo de Usuario</th>
+                          <th scope="col">Estatus</th>
+                          <th scope="col">Fecha de creación</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">Danae Castellanos Sandoval</td>
+                          <td>danae@lexley</td>
+                          <td>Administrador</td>
+                          <td class="text-center"><span class="badge badge-pill badge-success ">Activo</span></td>
+                         <td>06/11/2020</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Danae Castellanos Sandoval</td>
+                          <td>danae@lexley</td>
+                          <td>Administrador</td>
+                          <td class="text-center"><span class="badge badge-pill badge-warning ">En espera</span></td>
+                         <td>06/11/2020</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Danae Castellanos Sandoval</td>
+                          <td>danae@lexley</td>
+                          <td>Administrador</td>
+                          <td class="text-center"><span class="badge badge-pill badge-danger ">Inactivo</span></td>
+                          <td>06/11/2020</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src="../views/footer.js"></script>
+</body>
+</html>
