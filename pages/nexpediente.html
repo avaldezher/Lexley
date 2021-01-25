@@ -10,7 +10,7 @@
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    
+
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../style.css">
 
@@ -32,30 +32,30 @@
         <!-- Page Content  -->
         <div id="content">
             <script src="../views/navbar.js"></script>
-                      
+
             <div class="container">
-                    
+
                 <div class="card text-black shadow p-3 mb-5 rounded">
                     <div class="card-body text-black">
-                          <h1 class="card-title">
-                              <img src="../Lexley/Inicial/Grupo%201459.png" class="mr-2" style="width: 10%;"> Nuevo Archivo
-                                <button type="button" class="btn btn-danger float-right mr-2 mt-4">Cancelar</button>
-                                <button type="button" class="btn btn-reg-modal float-right mr-2 mt-4">Guardar</button>
-                          </h1>
+                        <h1 class="card-title">
+                            <img src="../Lexley/Inicial/Grupo%201459.png" class="mr-2" style="width: 10%;"> Nuevo Archivo
+                            <button type="button" class="btn btn-danger float-right mr-2 mt-4">Cancelar</button>
+                            <button type="button" class="btn btn-reg-modal float-right mr-2 mt-4">Guardar</button>
+                        </h1>
                         <!-- Form  -->
-                            <script src="../views/nexpedientesform.js"></script>
-                            <script src="../views/externos.js"></script>
-                            <script src="../views/internos.js"></script>
-                            <script src="../views/expedientes.js"></script>
-                            <script src="../views/autoridades.js"></script>
-                            <script src="../views/nseguimiento.js"></script>
-                        
+                        <script src="../views/nexpedientesform.js"></script>
+                        <script src="../views/externos.js"></script>
+                        <script src="../views/internos.js"></script>
+                        <script src="../views/expedientes.js"></script>
+                        <script src="../views/autoridades.js"></script>
+                        <script src="../views/nseguimiento.js"></script>
+
                         <div class="d-flex justify-content-center">
                             <button type="button" class="btn btn-reg-modal">Guardar</button>
                         </div>
                     </div>
-                  </div>
                 </div>
+            </div>
         </div>
     </div>
     <script>
@@ -67,7 +67,10 @@
             mode: 'ampm',
             format: 'hh:MM tt'
         });
-         $('#datepicker').datepicker({ width: 400 });
+        $('#datepicker').datepicker({
+            width: 400
+        });
+
     </script>
     <script src="../views/footer.js"></script>
 </body>
