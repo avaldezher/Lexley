@@ -31,7 +31,7 @@ a:focus {
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
 .navbar-btn {
@@ -104,7 +104,6 @@ a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid white;
 }
 
 #sidebar ul p {
@@ -461,7 +460,8 @@ a.article:hover {
 }
 
 .img-title {
-    width: 10%;
+    width: 8%;
+    border-radius: 20% !important;
 }
 
 .btn-primary {
@@ -706,8 +706,9 @@ header.masthead .masthead-heading {
 }
 
 .tramites-ul {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 25px;
+    margin-left: 3rem
 }
 
 /* ---------------------------------------------------
@@ -746,4 +747,25 @@ header.masthead .masthead-heading {
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+figure {
+    width: 300;
+    /*container-width*/
+    overflow: hidden;
+    /*hide bounds of image */
+    margin: 0;
+    /*reset margin of figure tag*/
+}
+
+figure img {
+    display: block;
+    /*remove inline-block spaces*/
+    width: 100%;
+    /*make image streatch*/
+}
+
+figure img {
+    /*add to other styles*/
+    margin: -11.875% 0;
 }

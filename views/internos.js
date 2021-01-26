@@ -14,19 +14,19 @@ document.write(`
                 <form class="form-horizontal">
                     <div class="form-group">
                         <label class="font-weight-bold" for="name">Nombre</label>
-                        <input type="name" class="form-control" id="nombre">
+                        <input type="name" class="form-control" id="nombreinterno">
                     </div>
                     <div class="form-group">
                         <label class="font-weight-bold" for="phone">Telefono</label>
-                        <input type="phone" class="form-control" id="phone">
+                        <input type="phone" class="form-control" id="phoneinterno">
                     </div>
                     <div class="form-group">
                         <label class="font-weight-bold" for="wa">Whatsapp</label>
-                        <input type="wa" class="form-control" id="wa">
+                        <input type="wa" class="form-control" id="wainterno">
                     </div>
                     <div class="form-group">
                         <label class="font-weight-bold" for="email">Email</label>
-                        <input type="email" class="form-control" id="email">
+                        <input type="email" class="form-control" id="emailinterno">
                     </div>
               </form>
             </div>

@@ -1,6 +1,6 @@
 document.write(`
 <!-- Form  -->
-        <form class="form-horizontal">
+        <form class="form-horizontal mt-3">
                             <div class="form-group">
                                 <label class="font-weight-bold" for="name">Nombre</label>
                                 <input type="name" class="form-control" id="nombre">

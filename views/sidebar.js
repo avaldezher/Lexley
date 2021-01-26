@@ -24,8 +24,7 @@ document.write(`
                 <li>
                     <a href="../pages/usuarios.html"><i class="fa fa-user"></i> Usuarios</a>
                 </li>
-            </ul>            
-            
+            </ul>
         </nav>
 
 `);
