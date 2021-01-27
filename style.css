@@ -363,6 +363,14 @@ a.article:hover {
     box-shadow: 5px 5px 5px 8px #ccc;
 }
 
+tbody {
+    background-color: #F8F8F8;
+}
+
+thead {
+    background-color: white;
+}
+
 .titulo {
     margin-top: 45px;
     margin-bottom: 15px;
@@ -610,8 +618,10 @@ header.masthead {
     top: -100%;
     bottom: -100%;
     margin: auto;
-    width: 100%;
-    height: 130%;
+    width: 150%;
+    height: 150%;
+    min-width: 100%;
+    min-height: 100%
 }
 
 
@@ -645,6 +655,24 @@ header.masthead .masthead-heading {
         font-weight: 700;
         line-height: 4.5rem;
         margin-bottom: 4rem;
+    }
+
+    registro .btn-reg {
+        width: -webkit-fill-available;
+    }
+
+    registro .crop-left {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    registro .btn-reg {
+        width: -webkit-fill-available;
+    }
+
+    registro .crop-left {
+        width: 50%;
     }
 }
 
@@ -768,4 +796,9 @@ figure img {
 figure img {
     /*add to other styles*/
     margin: -11.875% 0;
+}
+
+.form-control {
+    border: 0;
+    background-color: #F4F4F4;
 }

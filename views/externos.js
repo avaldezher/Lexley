@@ -4,7 +4,7 @@ document.write(`
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title"><img src="../Lexley/Otros/Grupo%201470.png" class="mr-2" style="width: 30%;">Persona Externo</h4>
+                <h4 class="modal-title"><img src="../Lexley/Otros/Grupo%201470.png" class="mr-2" style="width: 30%;">Persona Externa</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <button type="button" class="btn btn-danger mr-2 mt-4" data-dismiss="modal">Cancelar</button>
                     <button type="button" class="btn btn-reg-modal mt-4">Guardar</button>

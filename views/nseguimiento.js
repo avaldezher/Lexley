@@ -25,9 +25,6 @@ document.write(`
                                 <div class="col pl-0 pr-0">
                                     <div class="input-group">
                                         <input id="datepicker" class="form-control"/>
-                                        <div class="input-group-addon input-group-button">
-                                            <button type="button" class="btn add-btn"><i class="fa fa-plus-circle"></i></button>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
