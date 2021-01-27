@@ -45,11 +45,10 @@ document.write(`
                                 <label class="font-weight-bold" for="exampleInputFile">Documentos que acrediten cumplimiento</label><br/>
                                 <label>Arrastre sus archivos aquí o haga clic en anexar.</label><br/>
                               <input class="input-file" type="file" multiple>
-                                <p class="p-file">
+                                <p class="p-file center">
                                   <i class="fa fa-upload" aria-hidden="true" style="font-size: 45px;"></i>
                                     Anexa Documentos en formato .pdf, .jpg, .doc ó .xls
                                 </p>
-                              <button class="btn btn-primary" style="border-radius: 20px;" id="submit-files">Anexar</button>
                             </form>
                         </form>
                       </div>

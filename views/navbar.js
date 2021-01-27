@@ -14,12 +14,12 @@ document.write(`
 
                     <div class="collapse  navbar-collapse justify-content-end" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav nav ml-auto">
+                        <ul class="navbar-nav nav ml-auto" >
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="40" height="40" class="rounded-circle shadow rounded"> León Ponce
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #F4F4F4">
                                   <li><a class="dropdown-item" href="../pages/perfil.html">Mi Perfil</a></li>
                                   <li><a class="dropdown-item" href="../index.html">Cerrar Sesión</a></li>
                                 </ul>

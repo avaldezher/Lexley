@@ -337,6 +337,10 @@ a.article:hover {
     color: white;
 }
 
+.border-round {
+    border-radius: 5%;
+}
+
 .orange {
     background: #FFA631 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 20px #00000029;
@@ -507,6 +511,7 @@ thead {
     color: black;
     font-family: Arial;
     border: 2px dashed #cccc;
+    background-color: #F4F4F4;
 }
 
 .input-file {
@@ -518,6 +523,7 @@ thead {
     width: 100%;
     border-width: 2px;
     margin-bottom: 20px;
+
 }
 
 .btn-file {
@@ -605,16 +611,22 @@ header.masthead {
     background-attachment: scroll;
 }
 
+.blob {
+    background-image: url("Lexley/Inicial/Grupo%201266.png");
+    background-repeat: no-repeat;
+    background-position: -2cm bottom;
+    background-size: 110% 80%;
+}
 
 .container-lap > .crop {
     position: absolute;
     left: -100%;
     right: -59%;
-    top: -100%;
+    top: -120%;
     bottom: -100%;
     margin: auto;
-    width: 150%;
-    min-width: 100%;
+    width: 100%;
+    min-width: 50%;
 }
 
 .container-lap > .crop-left {
@@ -624,12 +636,12 @@ header.masthead {
     top: -130%;
     bottom: -100%;
     margin: auto;
-    width: 150%;
-    height: 180%;
-    min-width: 100%;
-    min-height: 100%
+    height: auto;
 }
 
+.intro {
+    height: auto;
+}
 
 header.masthead .masthead-subheading {
     line-height: 1.5rem;
