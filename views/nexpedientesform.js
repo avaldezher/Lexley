@@ -68,7 +68,7 @@ document.write(`
                                 <label class="font-weight-bold" for="exampleInputFile">Alta de documentos</label><br/>
                                 <label>Arrastre sus archivos aquí o haga clic en el área.</label><br/>
                               <input class="input-file" type="file" multiple>
-                                <p class="p-file">
+                                <p class="p-file center">
                                   <i class="fa fa-upload" aria-hidden="true" style="font-size: 55px;"></i>
                                     Anexa Documentos en formato .pdf, .jpg, .doc ó .xls
                                 </p>
