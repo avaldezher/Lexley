@@ -23,6 +23,19 @@ document.write(`
             $('form p').text(this.files.length + " Archivo(s) seleccionado");
           });
         });
+        $(document).ready(function() {
+            var scroll_start = 0;
+            var startchange = $('#inicio');
+            var offset = startchange.offset();
+            $(document).scroll(function() {
+                scroll_start = $(this).scrollTop();
+                if (scroll_start > offset.top) {
+                    $('#navbar').css('background-color', 'white');
+                } else {
+                    $('#navbar').css('background-color', 'transparent');
+                }
+            });
+        });
 
     </script>
 `);
