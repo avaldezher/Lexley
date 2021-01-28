@@ -5,6 +5,7 @@ html {
     overflow-x: hidden;
     background-color: #FBFBFB;
     width: 100%;
+    overflow-y: auto;
 }
 
 body {
@@ -595,11 +596,9 @@ thead {
 
 .navbar-brand {
     float: none;
+    margin-left: 90px;
 }
 
-.navbar {
-    /*background: transparent;*/
-}
 
 /* ---------------------------------------------------
   Header

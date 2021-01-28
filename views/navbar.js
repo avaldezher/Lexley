@@ -8,7 +8,7 @@ document.write(`
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="navbar-header">
-                        <img class="img-fluid" src="../Lexley/LogIn/Lexley.png" class="navbar-brand"/>
+                        <img class="img-fluid navbar-brand" src="../Lexley/LogIn/Lexley.png"/>
                     </div>
 
 
