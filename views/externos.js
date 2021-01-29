@@ -17,7 +17,7 @@ document.write(`
                         <input type="name" class="form-control" id="nombre">
                     </div>
                     <div class="form-group">
-                        <label class="font-weight-bold" for="phone">Telefono</label>
+                        <label class="font-weight-bold" for="phone">Teléfono</label>
                         <input type="phone" class="form-control" id="phone">
                     </div>
                     <div class="form-group">

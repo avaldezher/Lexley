@@ -20,7 +20,7 @@ document.write(`
                         <input type="text" class="form-control" id="domicilio">
                     </div>
                     <div class="form-group">
-                        <label class="font-weight-bold" for="phone">Telefono</label>
+                        <label class="font-weight-bold" for="phone">Teléfono</label>
                         <input type="text" class="form-control" id="phone">
                     </div>
                     <div class="form-group">
